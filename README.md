@@ -9,3 +9,9 @@ Primeiro passo é adquirir os equipamentos necessários:
 Preparação do ESP
 1) Conectorizar os fios jumpers no MRF-01 até o ESP
 ![Pinos](esp.jpg)
+
+2) No Home Assistant adicione um novo dispositivo ESPHOME
+3) Abra o arquivo esp-rf-bridge.yaml e use como modelo
+4) Grave o firmware no ESP
+ATENÇÃO: se usar porta diferente da D2, mude lá no arquivo 433Sensor/RcSwitchSensor.h
+5) Vá nos Devices do ESPHOME e abra o esp-rf-bridge
