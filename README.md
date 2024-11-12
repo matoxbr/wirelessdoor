@@ -15,3 +15,26 @@ Preparação do ESP
 4) Grave o firmware no ESP
 ATENÇÃO: se usar porta diferente da D2, mude lá no arquivo 433Sensor/RcSwitchSensor.h
 5) Vá nos Devices do ESPHOME e abra o esp-rf-bridge
+![Logbook](logbook.jpg)
+
+6) Note os IDs do DW2-RF que vão aparecer ai, apenas mostra ao abrir
+
+Preparação do Sonoff RF Door
+1) Observe o diagrama a seguir
+
+2) É necessário fazer a soldagem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
