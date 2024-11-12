@@ -8,6 +8,7 @@
 
 #Preparação do ESP
 1) Conectorizar os fios jumpers no MRF-01 até o ESP
+
 ![Pinos](esp.jpg)
 
 2) No Home Assistant adicione um novo dispositivo ESPHOME
@@ -15,16 +16,24 @@
 4) Grave o firmware no ESP
 ATENÇÃO: se usar porta diferente da D2, mude lá no arquivo 433Sensor/RcSwitchSensor.h
 5) Vá nos Devices do ESPHOME e abra o esp-rf-bridge
+
 ![Logbook](logbook.jpg)
 
 6) Note os IDs do DW2-RF que vão aparecer, mostra apenas ao abrir
 
 #Preparação do Sonoff RF Door
 1) Observe o diagrama a seguir
-![Diagrama](logbook.jpg)
-2) É necessário fazer a soldagem
-![Soldagem](logbook.jpg)
 
+![Diagrama](2024-11-12 11.20.39.jpg)
+
+2) É necessário fazer a soldagem
+
+![Soldagem](2024-11-12 11.12.39.jpg)
+
+3) Note os IDs do DW2-RF que vão aparecer, agora mostra ao abrir/fechar
+
+#Criar a automação
+1)
 
 
 
