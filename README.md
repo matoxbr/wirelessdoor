@@ -24,11 +24,11 @@ ATENÇÃO: se usar porta diferente da D2, mude lá no arquivo 433Sensor/RcSwitch
 #Preparação do Sonoff RF Door
 1) Observe o diagrama a seguir
 
-![Diagrama](2024-11-12 11.20.39.jpg)
+![Diagrama](diagrama.jpg)
 
 2) É necessário fazer a soldagem
 
-![Soldagem](2024-11-12 11.12.39.jpg)
+![Soldagem](soldagem.jpg)
 
 3) Note os IDs do DW2-RF que vão aparecer, agora mostra ao abrir/fechar
 
