@@ -32,7 +32,7 @@ ATENÇÃO: se usar porta diferente da D2, mude lá no arquivo 433Sensor/RcSwitch
 1)no arquivo configuration.yaml
  Inclua uma nova linha: binary_sensor: !include binary_sensor.yaml
 2) Crie um novo arquivo com o nome binary_sensor.yaml
-![Sensor]()
+![Sensor](binary_sensor.png)
 
 
 
