@@ -23,15 +23,20 @@ ATENÇÃO: se usar porta diferente da D2, mude lá no arquivo 433Sensor/RcSwitch
 
 #Preparação do Sonoff RF Door
 1) Observe o diagrama a seguir
+
 ![Diagrama](diagrama.jpg)
+
 2) É necessário fazer a soldagem
+
 ![Soldagem](soldagem.jpg)
+
 3) Note os IDs do DW2-RF que vão aparecer, agora mostra ao abrir/fechar
 
 #Criação do sensor
-1)no arquivo configuration.yaml
- Inclua uma nova linha: binary_sensor: !include binary_sensor.yaml
-2) Crie um novo arquivo com o nome binary_sensor.yaml
+1) Abra o arquivo configuration.yaml
+2) Inclua uma nova linha: binary_sensor: !include binary_sensor.yaml
+3) Crie um novo arquivo com o nome binary_sensor.yaml
+
 ![Sensor](binary_sensor.png)
 
 
