@@ -44,6 +44,10 @@ ATENÇÃO: se usar porta diferente da D2, mude lá no arquivo 433Sensor/RcSwitch
 
 ![Lovelace](lovelace.png)
 
+#Criação do lovelace Mushroom
+1) Novo Card: Mushroom Template
+
+![Mushroom](mushroom.png)
 
 
 
