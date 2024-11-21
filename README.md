@@ -28,8 +28,13 @@ ATENÇÃO: se usar porta diferente da D2, mude lá no arquivo 433Sensor/RcSwitch
 ![Soldagem](soldagem.jpg)
 3) Note os IDs do DW2-RF que vão aparecer, agora mostra ao abrir/fechar
 
-#Criar a automação
-1)
+#Criação do sensor
+1)no arquivo configuration.yaml
+ Inclua uma nova linha: binary_sensor: !include binary_sensor.yaml
+2) Crie um novo arquivo com o nome binary_sensor.yaml
+![Sensor]()
+
+
 
 
 
