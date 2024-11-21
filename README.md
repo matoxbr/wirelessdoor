@@ -49,7 +49,7 @@ ATENÇÃO: se usar porta diferente da D2, mude lá no arquivo 433Sensor/RcSwitch
 
 ![Mushroom](mushroom.png)
 
-
+2) Abra o arquivo mushroom.txt e use como modelo
 
 
 
