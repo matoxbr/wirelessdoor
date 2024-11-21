@@ -39,7 +39,10 @@ ATENÇÃO: se usar porta diferente da D2, mude lá no arquivo 433Sensor/RcSwitch
 
 ![Sensor](binary_sensor.png)
 
+#Criação do lovelace
+1) Novo Card: Entity
 
+![Lovelace](lovelace.png)
 
 
 
