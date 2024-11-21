@@ -1,0 +1,40 @@
+type: custom:stack-in-card
+cards:
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-template-card
+        primary: ""
+        secondary: Sala
+        entity: binary_sensor.janela_sala
+        icon: |
+          {% if is_state(entity, 'on') %}
+            mdi:window-open
+          {% else %}
+            mdi:window-closed
+          {% endif %}
+        icon_color: |
+          {% if is_state(entity, 'on') %}
+            #9932CC
+          {% else %}
+            #1E90FF
+          {% endif %}
+        tap_action:
+          action: more-info
+      - type: custom:mushroom-template-card
+        primary: ""
+        secondary: Quarto
+        entity: binary_sensor.janela_quarto
+        icon: |
+          {% if is_state(entity, 'on') %}
+            mdi:window-open
+          {% else %}
+            mdi:window-closed
+          {% endif %}
+        icon_color: |
+          {% if is_state(entity, 'on') %}
+            #9932CC
+          {% else %}
+            #1E90FF
+          {% endif %}
+        tap_action:
+          action: more-info
