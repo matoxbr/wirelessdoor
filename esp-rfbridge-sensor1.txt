@@ -1,0 +1,22 @@
+alias: esp-rfbridge-sensor1
+description: ""
+triggers:
+  - trigger: state
+    entity_id:
+      - sensor.433sensor
+    from: "0"
+    to: "2624785"
+  - trigger: state
+    entity_id:
+      - sensor.433sensor
+    from: "0"
+    to: "2624792"
+conditions: []
+actions:
+  - action: mqtt.publish
+    metadata: {}
+    data:
+      retain: false
+      topic: homeassistant/sensor/433sensor/sensor1/state
+      payload: "{{ states('sensor.433sensor') }}"
+mode: single
