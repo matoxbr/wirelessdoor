@@ -66,10 +66,15 @@ mqtt:
 
 3) Crie um novo arquivo na pasta chamada mqtt com o nome binary_sensor.yaml
 
+![MQTT](mqtt.png)
 
+#Criação das automações
+1) Abra Settings / Automations
+2) + Create Automation
+3) Create New Automation
+4) Clique nos tres pontos do canto direito / Edit in YAML
+5) Basta fazer conforme os dois sensores abaixo
 
+![Sensor 1](sensor1.png)
 
-
-
-
-
+![Sensor 2](sensor2.png)
