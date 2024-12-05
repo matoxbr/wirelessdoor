@@ -81,5 +81,5 @@ mqtt:
 
 #Inclua os dois sensores no seu lovelace
 1) Basta chamar dessa forma:
-  "- entity: binary_sensor.door_1"
-  "- entity: binary_sensor.door_2"
+2) - entity: binary_sensor.door_1
+3) - entity: binary_sensor.door_2
