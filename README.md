@@ -78,3 +78,5 @@ mqtt:
 ![Sensor 1](sensor1.png)
 
 ![Sensor 2](sensor2.png)
+
+6) Inclua dos dois sensores no lovelace
