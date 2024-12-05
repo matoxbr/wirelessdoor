@@ -52,6 +52,19 @@ ATENÇÃO: se usar porta diferente da D2, mude lá no arquivo 433Sensor/RcSwitch
 2) Abra o arquivo mushroom.txt e use como modelo
 
 
+## UPGRADE ##
+
+Existe um problema usando binary_sensor, ele perde o valor assim que o Home Assistant é reiniciado
+Troque por um sensor mqtt(faça instalação previa no home assistant)
+
+#Criação do sensor
+1) Abra o arquivo configuration.yaml
+2) Inclua uma nova linha:
+
+mqtt:
+  binary_sensor: !include mqtt/binary_sensor.yaml
+
+3) Crie um novo arquivo na pasta chamada mqtt com o nome binary_sensor.yaml
 
 
 
