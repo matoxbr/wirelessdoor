@@ -80,6 +80,6 @@ mqtt:
 ![Sensor 2](sensor2.png)
 
 #Inclua os dois sensores no seu lovelace
-1) Basta chamar dessa forma
+1) Basta chamar dessa forma:
   "- entity: binary_sensor.door_1"
   "- entity: binary_sensor.door_2"
