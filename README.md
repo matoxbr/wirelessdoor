@@ -79,4 +79,7 @@ mqtt:
 
 ![Sensor 2](sensor2.png)
 
-6) Inclua dos dois sensores no lovelace
+#Inclua os dois sensores no seu lovelace
+1) Inclua os dois sensores no lovelace
+  - entity: binary_sensor.door_1
+  - entity: binary_sensor.door_2
